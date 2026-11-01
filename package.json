@@ -1,0 +1,36 @@
+{
+  "name": "opencode-brindley-sidebar",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./tui": "./src/tui.tsx"
+  },
+  "scripts": {
+    "test": "node scripts/check-syntax.mjs && node --test test/*.test.ts",
+    "check:syntax": "node scripts/check-syntax.mjs"
+  },
+  "dependencies": {
+    "picomatch": "^4.0.2",
+    "yaml": "^2.6.1"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.6.6",
+    "@opentui/solid": ">=0.6.6",
+    "solid-js": ">=1.9.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.29.11"
+  },
+  "license": "MIT",
+  "description": "Two OpenCode sidebar sections showing the state of Brindley initiatives",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcsmiff/opencode-brindley-sidebar.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "brindley",
+    "tui"
+  ]
+}

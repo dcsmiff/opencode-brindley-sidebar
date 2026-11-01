@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@opentui/solid",
+    "noEmit": true
+  },
+  "include": ["src", "test"]
+}
